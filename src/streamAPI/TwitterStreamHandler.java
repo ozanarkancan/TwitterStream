@@ -14,10 +14,10 @@ public class TwitterStreamHandler {
 	{
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-		  .setOAuthConsumerKey("CttJv7ikyd6xoAuAF8G1w")
-		  .setOAuthConsumerSecret("V2OROxvEH3p6oMmHC5biI9ZocqcMuLlNbISOMr2ahng")
-		  .setOAuthAccessToken("512102247-1QlNfmJqTLcfVbOjzmEnR3ctR6Y2nKilwrxWStDd")
-		  .setOAuthAccessTokenSecret("U2FfH0iUPKVXl92EuIhRkZKJ0kp1rJOSWJEL5ZY4y0");
+		  .setOAuthConsumerKey("")
+		  .setOAuthConsumerSecret("")
+		  .setOAuthAccessToken("")
+		  .setOAuthAccessTokenSecret("");
 		cb.setJSONStoreEnabled(true);
 		configuration = cb.build();
 	}
